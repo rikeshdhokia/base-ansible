@@ -4,7 +4,7 @@
 ### Steps to get ansible cloud formation working
 
 - Local machine personal aws create stack
--- IAM user to be able to create AWS stack
+  - IAM user to be able to create AWS stack
 
 - Local shared playbooks
 
