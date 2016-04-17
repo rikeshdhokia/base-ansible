@@ -1,0 +1,10 @@
+{
+  "Resources" : {
+    "KinesisStream": {
+      "Type" : "AWS::Kinesis::Stream",
+      "Properties" : {
+          "ShardCount" : 1
+      }
+    }
+  }
+}
