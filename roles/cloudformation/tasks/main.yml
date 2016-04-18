@@ -1,0 +1,14 @@
+---
+- name: launch cloudformation stack
+  cloudformation:
+    aws_access_key: "{{ aws_access_key }}"
+    aws_secret_key: "{{ aws_secret_key }}"
+    stack_name: "{{ stack_name }}"
+    state: "{{ state }}"
+    region: "ap-southeast-2"
+    disable_rollback: true
+    template: "{{ template_file }}"
+    tags:
+      Stack: "{{ stack_name }}"
+
+
